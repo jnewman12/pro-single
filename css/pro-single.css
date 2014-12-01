@@ -1,0 +1,102 @@
+/* styles */
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #050002 !important; /* your back ground color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif !important; 
+    color: #FFFFFF !important;
+}
+/* change fonts if you want, reference is in index */
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+    color: #FFFFFF;
+}
+
+.line {
+	width: 100%;
+	height: 10px;
+	background-color: #5b5b5b !important;
+}
+
+.left li {
+    list-style-type: none;
+}
+
+.right li {
+	display: inline-block;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+	top: 30px;
+}
+
+/* this code is for the color of the circles */
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #5b5b5b;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+/* this code is somewhat uneccessary, but I think it looks cool. It just changes the color of each on hover*/
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    color: white;
+    background-color: #4099FF;
+}
+
+ul.social-buttons li:nth-child(2) a:hover,
+ul.social-buttons li:nth-child(2) a:focus,
+ul.social-buttons li:nth-child(2) a:active {
+    color: white;
+    background-color: #3b5998 !important;
+}
+
+ul.social-buttons li:nth-child(3) a:hover, 
+ul.social-buttons li:nth-child(3) a:focus, 
+ul.social-buttons li:nth-child(3) a:active {
+    color: white;
+    background-color: #007bb6 !important;
+}
+
+ul.social-buttons li:nth-child(4) a:hover, 
+ul.social-buttons li:nth-child(4) a:focus, 
+ul.social-buttons li:nth-child(4) a:active {
+    color: white;
+    background-color: #dd4b39!important;
+}
+
+.welcome {
+    height: auto;
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+
+.navbar-fixed-bottom {
+    bottom: 15px !important;
+}
+
+.navbar-fixed-bottom ul li {
+    display: inline-block;
+}
